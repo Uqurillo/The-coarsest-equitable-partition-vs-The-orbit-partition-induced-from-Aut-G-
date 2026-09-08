@@ -1,1 +1,14 @@
-
+Dataset,n,CEP,Orbits,Diff,Equal?
+Actors,374511,191680,191680,0,True
+Amazon,334863,302387,302387,0,True
+Astro-Ph,17903,14660,14660,0,True
+CaliforniaRoads,1957027,1917379,1917379,0,True
+HumanDisease,1419,686,686,0,True
+HumanPPI,9270,8294,8294,0,True
+InternetAS-koblenz,34761,19128,19128,0,True
+InternetAS-skitter,1694616,1360452,1360452,0,True
+LiveJournal,5189808,4777459,4777459,0,True
+OpenFlights,3397,2626,2626,0,True
+USPowerGrid,4941,4466,4466,0,True
+WordNet,145145,87244,87244,0,True
+Yeast,1647,1256,1256,0,True

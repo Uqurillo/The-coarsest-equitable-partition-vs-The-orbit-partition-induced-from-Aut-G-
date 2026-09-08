@@ -1,0 +1,12 @@
+dataset,status,number_of_vertices,number_of_edges,number_of_cep_cells,iterations,indexing_base,directed,runtime_seconds
+Actors,OK,374511,15014839,191680,5,0,False,120.587
+Amazon,OK,334863,925872,302387,8,0,False,19.886
+Astro-Ph,OK,17903,196972,14660,5,0,False,2.536
+CaliforniaRoads,OK,1957027,2760388,1917379,21,0,False,189.092
+HumanDisease,OK,1419,2738,686,5,0,False,0.021
+InternetAS-koblenz,OK,34761,107720,19128,5,0,False,1.197
+InternetAS-skitter,OK,1694616,11094209,1360452,14,0,False,289.462
+LiveJournal,OK,5189808,48687945,4777459,12,0,False,1093.57
+OpenFlights,OK,3397,19230,2626,6,0,False,0.159
+USPowerGrid,OK,4941,6594,4466,8,0,False,0.101
+Yeast,OK,1647,2518,1256,6,0,False,0.028

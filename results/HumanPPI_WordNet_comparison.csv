@@ -1,0 +1,3 @@
+dataset,number_of_vertices,number_of_edges,number_of_cep_cells,number_of_orbit_cells,counts_equal,relabelled_partitions_equal,iterations,runtime_seconds
+HumanPPI,9270,36918,8294,8294,True,True,6,0.602
+WordNet,145145,656230,87244,87244,True,True,6,8.856
