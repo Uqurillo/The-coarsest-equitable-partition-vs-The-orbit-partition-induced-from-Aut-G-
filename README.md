@@ -9,6 +9,7 @@ In the code file of this repository, we see four different documents. "compute_c
 
 In fact, the following table shows our results:
 
+```text
 =================================================================================================
 Dataset                              n          CEP       Orbits       Diff   Equal?
 =================================================================================================
@@ -26,7 +27,6 @@ USPowerGrid                      4,941        4,466        4,466          0     
 WordNet                        145,145       87,244       87,244          0     True
 Yeast                            1,647        1,256        1,256          0     True
 =================================================================================================
-
 
 We note that the orbit cells for the HumanPPI and WordNet datasets start from $1$, although all the others are indexed from $0$. Hence, for these two datasets, we write the cells of the coarsest equitable partition using $1$-based labels. We then observe that if we apply the relabelling: $i \to i-1$ for $i > 1$ and $1 \to |V(G)|$ to the coarsest equitable partition, we obtain an equality with the orbit partition.  
 
