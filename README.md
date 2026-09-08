@@ -9,24 +9,27 @@ In the code file of this repository, we see four different documents. "compute_c
 
 In fact, the following table shows our results:
 
-```text
-=================================================================================================
-Dataset                              n          CEP       Orbits       Diff   Equal?
-=================================================================================================
-Actors                         374,511      191,680      191,680          0     True
-Amazon                         334,863      302,387      302,387          0     True
-Astro-Ph                        17,903       14,660       14,660          0     True
-CaliforniaRoads              1,957,027    1,917,379    1,917,379          0     True
-HumanDisease                     1,419          686          686          0     True
-HumanPPI                         9,270        8,294        8,294          0     True
-InternetAS-koblenz              34,761       19,128       19,128          0     True
-InternetAS-skitter           1,694,616    1,360,452    1,360,452          0     True
-LiveJournal                  5,189,808    4,777,459    4,777,459          0     True
-OpenFlights                      3,397        2,626        2,626          0     True
-USPowerGrid                      4,941        4,466        4,466          0     True
-WordNet                        145,145       87,244       87,244          0     True
-Yeast                            1,647        1,256        1,256          0     True
-=================================================================================================
+
+But for a README, I recommend making it a real Markdown table instead:
+
+```markdown
+| Dataset | n | CEP | Orbits | Diff | Equal? |
+|---|---:|---:|---:|---:|:---:|
+| Actors | 374,511 | 191,680 | 191,680 | 0 | True |
+| Amazon | 334,863 | 302,387 | 302,387 | 0 | True |
+| Astro-Ph | 17,903 | 14,660 | 14,660 | 0 | True |
+| CaliforniaRoads | 1,957,027 | 1,917,379 | 1,917,379 | 0 | True |
+| HumanDisease | 1,419 | 686 | 686 | 0 | True |
+| HumanPPI | 9,270 | 8,294 | 8,294 | 0 | True |
+| InternetAS-koblenz | 34,761 | 19,128 | 19,128 | 0 | True |
+| InternetAS-skitter | 1,694,616 | 1,360,452 | 1,360,452 | 0 | True |
+| LiveJournal | 5,189,808 | 4,777,459 | 4,777,459 | 0 | True |
+| OpenFlights | 3,397 | 2,626 | 2,626 | 0 | True |
+| USPowerGrid | 4,941 | 4,466 | 4,466 | 0 | True |
+| WordNet | 145,145 | 87,244 | 87,244 | 0 | True |
+| Yeast | 1,647 | 1,256 | 1,256 | 0 | True |
+
+
 
 We note that the orbit cells for the HumanPPI and WordNet datasets start from $1$, although all the others are indexed from $0$. Hence, for these two datasets, we write the cells of the coarsest equitable partition using $1$-based labels. We then observe that if we apply the relabelling: $i \to i-1$ for $i > 1$ and $1 \to |V(G)|$ to the coarsest equitable partition, we obtain an equality with the orbit partition.  
 
