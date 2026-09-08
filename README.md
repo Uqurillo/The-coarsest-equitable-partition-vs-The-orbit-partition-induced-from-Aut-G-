@@ -5,7 +5,7 @@ Let $G=(V,E)$ be a graph. A partition $\pi=${C_1,...,C_t} of $V$ is equitable if
 
 Therefore, the orbit partition $\pi_{Aut(G)}$ obtained from $Aut(G)$ is finer than the coarsest equitable partition $\pi_{cep(G)}$. On the other hand, it is meaningful to investigate how different they are for real-world datasets. For this aim, we take the datasets from [1], where Sánchez-García works with many different graphs, varying widely in size, to exploit their symmetries. Since the orbit cells are already present in the dataset, we compute the coarsest equitable partitions by following the iteration methodology of the $1$-WL test. The next step is to compare $\pi_{Aut(G)}$ and $\pi_{cep(G)}$ for the fixed graph $G$. We can do this by checking whether any cell of the coarsest equitable partition contains multiple orbit cells or not. However, it is enough to look at whether the number of cells in both partitions is equal to each other.
 
-We perform this comparison on 13 real-world graph datasets:
+We perform this task on 13 real-world graph datasets:
 
 - Actors
 - Amazon
