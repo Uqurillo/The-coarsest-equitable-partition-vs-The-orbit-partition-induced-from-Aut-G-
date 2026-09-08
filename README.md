@@ -45,7 +45,9 @@ Yeast                            1,647        1,256        1,256          0     
 =================================================================================================
 ```
 
-Hence, for every dataset considered, $\pi_{Aut(G)}=\pi_{cep(G)}$.
+In the results file, we have three summary csv documents including their running time in seconds.
+
+Hence, we conclude that for every dataset considered, $\pi_{Aut(G)}=\pi_{cep(G)}$.
 
 [1]:Sánchez-García, Rubén J. "Exploiting symmetry in network analysis." Communications Physics 3.1 (2020): 87.
 
